@@ -1,0 +1,88 @@
+
+* {
+    margin: 0%;
+    padding: 0;
+    font-family: "Josefin Sans";
+    text-align: center;
+}
+
+body {
+    background-image: url("background.gif");
+    background-size: cover;
+}
+
+.container {
+    margin: 5% 25%;
+    background-color: #FAEBD7;
+    border-radius: 10px 10px;
+}
+
+h1 {
+    padding: 10pt;
+    color: #fff;
+    background-color: #FF295C;
+    border-radius: 10px 10px 0 0;
+}
+
+h3 {
+    padding: 15pt 0 30pt;
+    color: #FF295C;
+    line-height: 1.5;
+    font-size: 1rem;
+}
+
+p {
+    font-size: 28px;
+    padding-bottom: 10pt;
+}
+
+span {
+    font-size: 30pt;
+}
+
+.sub-container {
+    padding-bottom: 10pt;
+    display: flex;
+    justify-content: space-around;
+    color: #2F4F4F;
+}
+
+button {
+    cursor: pointer;
+    border: 0;
+    border-radius: 2;
+    color: #fff;
+    font-size: 23px;
+    background:#FF295C;
+    padding: 15px 25px 15px 25px;
+    font-family: "Josefin Sans";
+    font-weight: bold;
+    box-shadow: 5px 5px 5px grey;
+}
+
+button:hover {
+    background: #FF295C;
+    background-image: -webkit-linear-gradient(top, #FF295C, #a6052d);
+    background-image: -moz-linear-gradient(top, #FF295C, #a6052d);
+    background-image: -ms-linear-gradient(top, #FF295C, #a6052d);
+    background-image: -o-linear-gradient(top, #FF295C, #a6052d);
+    background-image: linear-gradient(to bottom, #FF295C, #a6052d);
+}
+
+button:active {
+    transform: translate(0px, 5px);
+}
+
+.type-game {
+    padding: 40pt 0 10pt;
+}
+
+.word-display {
+    color: #2F4F4F;
+    font-size: 40pt;
+}
+
+.bg {
+    background-color: green;
+}
+
